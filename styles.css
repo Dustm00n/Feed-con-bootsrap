@@ -1,0 +1,19 @@
+/*.cajita{
+    height: 50px;
+    width: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 720px;
+    margin-top: 15px;
+    font-size: 15px;
+
+
+.iconos{
+    margin-right: 275px;
+    border-radius: 5px;
+
+}*/
+
+.sinborde{
+  border: 0;
+}

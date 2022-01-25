@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Instagram con bootstrap</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid ps-5">
+      <i class="fab fa-instagram fa-2x"></i>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-40">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Instagram</a>
+          </li>
+        </ul>
+
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Crear un Nuevos Post
+        </button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <textarea name="textarea" rows="4" cols="50">Escribe Aquí</textarea>
+              </div>
+              <div class="modal-footer">
+                <div class="iconos">
+                  <i class="fas fa-camera fa-xs"></i>
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Publicar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-cog fa-xs"></i>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Log Out</a></li>
+          </ul>
+        </div>
+  </nav>
+  <div class="row">
+    <div class="col">
+      <div class="d-flex justify-content-center">
+        <div class="d-grid gap-2 d-md-block m-45 bg-light">
+          <a href="index.html"> <button class="btn btn-primary bg-secondary" type="button"><i
+                class="fas fa-th"></i></button> </a>
+          <a href="index1.html"> <button class="btn btn-primary bg-secondary" type="button"><i
+                class="fas fa-square"></i></button> </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="d-flex justify-content-center">
+  <div class="row">
+  <div class="col">
+    <h1><strong>floor</strong></h1>
+      <div class="card" style="width: 700px;">
+        <img src="./img/2.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Marca la diferencia.</p> <i class="far fa-heart"></i> 
+            <input type="text" class="sinborde" value="Comentario"> 
+            <div class="d-flex justify-content-end">
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+        </div>
+  </div>
+  </div>
+    </div>
+  </div>
+
+   <div class="d-flex justify-content-center">
+     <div class="row">
+       <div class="col">
+         <h1><strong>red bathroom </strong></h1>
+         <div class="card" style="width: 700px;">
+           <img src="./img/3.jpeg" class="card-img-top" alt="...">
+           <div class="card-body">
+             <p class="card-text">Entorno anormal</p> <i class="far fa-heart"></i> 
+               <input type="text" class="sinborde" value="Comentario"> 
+               <div class="d-flex justify-content-end">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+           </div>
+         </div>
+       </div>
+     </div>
+    </div>  
+
+
+    <div class="d-flex justify-content-center">
+      <div class="row">
+       <div class="col">
+         <h1><strong>Paisaje</strong></h1>
+         <div class="card" style="width: 700px;">
+           <img src="./img/4.jpeg" class="card-img-top" alt="...">
+           <div class="card-body">
+             <p class="card-text"> El paisaje le pertenece a la persona que lo observa.
+               </p> <i class="far fa-heart"></i> 
+               <input type="text" class="sinborde" value="Comentario">
+               <div class="d-flex justify-content-end">
+                <i class="fas fa-ellipsis-v"></i>
+              </div> 
+           </div>
+         </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <div class="row">
+        <div class="col">
+          <h1><strong>Hermoso</strong></h1>
+          <div class="card" style="width: 700px;">
+            <img src="./img/5.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">El amor es como un árbol, crece por sí mismo y echa raíces profundas en todo nuestro ser.
+              </p> <i class="far fa-heart"></i> 
+                <input type="text" class="sinborde" value="Comentario">
+                <div class="d-flex justify-content-end">
+                  <i class="fas fa-ellipsis-v"></i>
+                </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="d-flex justify-content-center">
+      <div class="row">
+        <div class="col">
+          <h1><strong>EL coloso</strong></h1>
+          
+          <div class="card" style="width: 700px;">
+            <img src="./img/6.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">“Cerca de la cima siempre hay mil excusas para bajarse y una sola para subir.”</p> <i class="far fa-heart"></i> 
+                <input type="text" class="sinborde" value="Comentario">
+                <div class="d-flex justify-content-end">
+                  <i class="fas fa-ellipsis-v"></i>
+                </div> 
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>    
+      
+    <div class="d-flex justify-content-center">
+      <div class="row">
+        <div class="col">
+          <h1><strong>El paramo</strong></h1>
+          <div class="card" style="width: 700px;">
+            <img src="./img/7.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Oda al paramo, descansa tu alma. explora tu mundo 
+              </p>
+              <i class="far fa-heart"></i> 
+              <input type="text" class="sinborde" value="Comentario"> 
+              <div class="d-flex justify-content-end">
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+                
+            </div>
+          </div>
+        </div>
+      </div>    
+    </div>
+
+        
+
+    
+
+  </div>
+  </div>
+  </div>
+  <footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"></script>
+  </footer>
+
+</html>
